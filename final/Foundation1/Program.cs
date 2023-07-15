@@ -36,27 +36,27 @@ class Program
         // Creating videos
         Video video1 = new Video
         {
-            Title = "Video 1",
-            Author = "Author 1",
+            Title = "Cat video",
+            Author = "Carter Williams",
             LengthInSeconds = 120,
             Comments = new List<Comment>
             {
-                new Comment { CommenterName = "User 1", Text = "Comment 1" },
-                new Comment { CommenterName = "User 2", Text = "Comment 2" },
-                new Comment { CommenterName = "User 3", Text = "Comment 3" }
+                new Comment { CommenterName = "Bill", Text = "I love cats!" },
+                new Comment { CommenterName = "Bob", Text = "Hilarious LOL!" },
+                new Comment { CommenterName = "Bary", Text = "cute boi :3" }
             }
         };
         videos.Add(video1);
 
         Video video2 = new Video
         {
-            Title = "Video 2",
-            Author = "Author 2",
+            Title = "Serious Video",
+            Author = "Sam Williams",
             LengthInSeconds = 180,
             Comments = new List<Comment>
             {
-                new Comment { CommenterName = "User 4", Text = "Comment 4" },
-                new Comment { CommenterName = "User 5", Text = "Comment 5" }
+                new Comment { CommenterName = "Joe", Text = "Very serious." },
+                new Comment { CommenterName = "John", Text = "I completely agree @Joe." }
             }
         };
         videos.Add(video2);
